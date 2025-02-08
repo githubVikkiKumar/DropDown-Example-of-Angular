@@ -1,0 +1,19 @@
+<div>
+    <h2>Select Your Country and State</h2>
+    
+    <label for="country">Country:</label>
+<select id="country" (change)="onCountryChange($event.target.value)">
+
+      <option value="" disabled selected>Select a country</option>
+      <option *ngFor="let country of countries" [value]="country.id">{{ country.name }}</option>
+    </select>
+  
+    <br><br>
+  
+    <label for="state">State:</label>
+    <select id="state" [disabled]="!selectedCountryId">
+      <option value="" disabled selected>Select a state</option>
+      <option *ngFor="let state of states" [value]="state.id">{{ state.name }}</option>
+    </select>
+  </div>
+  
