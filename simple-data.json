@@ -1,0 +1,23 @@
+{
+    "countries": [
+      {
+        "id": "1",
+        "name": "United States",
+        "states": [
+          { "id": "1", "name": "California" },
+          { "id": "2", "name": "Texas" },
+          { "id": "3", "name": "Florida" }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Canada",
+        "states": [
+          { "id": "1", "name": "Ontario" },
+          { "id": "2", "name": "Quebec" },
+          { "id": "3", "name": "British Columbia" }
+        ]
+      }
+    ]
+  }
+  
